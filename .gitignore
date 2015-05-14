@@ -11,7 +11,7 @@ __pycache__/
 *.doc
 *.docx
 *.txt
-.idea/
+/.idea
 
 # C extensions
 *.so
