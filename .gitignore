@@ -5,6 +5,12 @@ __pycache__/
 *.py[cod]
 
 
+*.data
+*.conf
+*.xlsx
+*.doc
+*.docx
+*.txt
 .idea/
 
 # C extensions
