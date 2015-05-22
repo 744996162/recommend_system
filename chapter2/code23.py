@@ -59,7 +59,7 @@ def coverage(train, test, N):
             recommend_items.append(item)
     recommend_items_set = set(recommend_items)
     all_items_set = set(all_items)
-    return len(recommend_items) / (len(all_items_set)*1.0)
+    return len(recommend_items_set) / (len(all_items_set)*1.0)
 
 
 "余弦相似度"
@@ -84,7 +84,6 @@ def userSimilarity_new(train):
             if itemid not in item_object:
                 item_object[itemid] = set()
             item_object[itemid].add(userid)
-
     pass
 
 
